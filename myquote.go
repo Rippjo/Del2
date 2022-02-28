@@ -1,24 +1,9 @@
-package myqoute
+package main
 
 import (
     "fmt"
-    "rsc.io/quote"
+    "github.com/Rippjo/Del2/tree/main"
 )
-
-func Glass(){
-    fmt.Println(quote.Glass())
+func main() {
+    fmt.Println(del2pakke.TestQuote())
 }
-
-func Go(){
-fmt.Println(quote.Go())
-}
-
-func Hello(){
-fmt.Println(quote.Hello())
-}
-
-func Opt(){
-fmt.Println(quote.Opt())
-}
-
-
